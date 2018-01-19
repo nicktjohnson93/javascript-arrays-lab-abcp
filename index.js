@@ -21,4 +21,6 @@ function destructivelyRemoveFirstKitten(string, array){
   return newKit.shift(string)
 }
 
-function appendKitten()
+function appendKitten(string, array){
+  return 
+}

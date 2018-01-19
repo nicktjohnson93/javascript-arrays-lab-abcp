@@ -10,3 +10,8 @@ function destructivelyPrependKitten(string, array){
   var newKitten = kittens
   return newKitten.unshift(string)
 }
+
+function destructivelyRemoveLastKitten(string, array){
+  var newKitty = kittens
+  return 
+}

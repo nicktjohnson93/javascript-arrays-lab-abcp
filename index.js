@@ -8,5 +8,5 @@ function destructivelyAppendKitten (string, array){
 
 function destructivelyPrependKittens(string, array){
   var newKitten = kittens
-  return newKitten.unshift(string)
+  return newKitten.shift(string)
 }

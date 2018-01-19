@@ -27,13 +27,16 @@ function appendKitten(string, array){
 }
 
 function prependKitten(string, array){
-  return [string, ...array]
+  var newKitt = kittens
+  return [string, ...newKitt]
 }
 
 function removeLastKitten(array){
-  return array.slice(0, array.length -1)
+  var newArrays = kittens
+  return newArrays.slice(0, newArrays.length -1)
 }
 
 function removeFirstKitten(array){
-  return array.slice(1)
+  var newKitts = kittens
+  return newKitts.slice(1)
 }

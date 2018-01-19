@@ -5,3 +5,5 @@ function destructivelyAppendKitten (string, array){
   var newKittens = kittens
   return newKittens.push(string)
 }
+
+function destructivelyPrependKittens

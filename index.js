@@ -30,3 +30,5 @@ function prependKitten(string, array){
 }
 
 function removeLastKitten(string, array){
+  return 
+}

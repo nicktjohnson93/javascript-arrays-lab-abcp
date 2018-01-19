@@ -6,4 +6,7 @@ function destructivelyAppendKitten (string, array){
   return newKittens.push(string)
 }
 
-function destructivelyPrependKittens
+function destructivelyPrependKittens(string, array){
+  var newKitten = kittens
+  return newKitten.unshift(string)
+}

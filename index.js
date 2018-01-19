@@ -28,3 +28,5 @@ function appendKitten(string, array){
 function prependKitten(string, array){
   return [string, ...array]
 }
+
+function removeLastKitten(string, array){

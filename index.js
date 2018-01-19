@@ -29,6 +29,10 @@ function prependKitten(string, array){
   return [string, ...array]
 }
 
-function removeLastKitten(string, array){
+function removeLastKitten(array){
   return array.slice(0, array.length -1)
+}
+
+function removeFirstKitten(array){
+  return array.slice(1)
 }
